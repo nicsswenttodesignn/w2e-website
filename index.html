@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Wave To Earth Fan Website</title>
+
+	<!-- font Awesome CDN link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- JQuery CDN link -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!-- Navigation start -->
+	<header>
+	<nav>
+		<img src="img/logo.jpg" class="logo" alt="">
+
+		<div class="navigation">
+<ul>
+    <i id="menu-close" class="fas fa-times"></i>
+
+    <li><a href="#home" class="active">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#music">Music</a></li>
+    <li><a href="#members">Meet the Members</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+</ul>
+
+			<img src="img/menu.png" id="menu-btn" alt="">
+		</div>
+	</nav>
+	<!-- Navigation ends -->
+	</header>
+
+	<!-- Hero section starts from here -->
+<section id="home">
+
+    <h2>
+        ⋆˚｡ Where Waves Meet the Earth ⋆˚｡
+    </h2>
+
+    <p>
+        .✦ ݁˖ Feel the calm, nostalgia and rhythm behind every song .✦ ݁˖
+    </p>
+
+    <div class="btn">
+
+        <a href="#about" class="black">
+            Explore the Band
+        </a>
+
+        <a href="#latest-release" class="black">
+            Latest Release
+        </a>
+
+    </div>
+
+</section>
+	<!-- Hero section ends from here -->
+
+
+	<!-- About section starts from here -->
+	<section id="about">
+		<h1>
+           .✦ ݁˖ Discover Wave To Earth .✦ ݁˖
+        </h1>
+		<p>Discover the story, sound, and emotions that make Wave To Earth a truly unforgettable band.</p>
+
+		<div class="fea-base">
+			<div class="fea-box">
+				<i class="fas fa-compact-disc"></i>
+				<h3>
+                    Unique Sound
+                </h3>
+				<p>
+				   A blend of indie, jazz, lo-fi, and dream pop that creates a calm and nostalgic atmosphere.
+				</p>
+			</div>
+
+			<div class="fea-box">
+				<i class="fa-solid fa-users"></i>
+				<h3>
+                    The Band
+                </h3>
+				<p>
+					Learn about the members, their journey, and how Wave to Earth was formed.
+				</p>
+			</div>
+
+			<div class="fea-box">
+				<i class="fas fa-heart"></i>
+				<h3>
+                    The Experience
+                </h3>
+				<p>
+					Explore the emotions, stories, and comforting vibe behind their music.
+				</p>
+			</div>
+		</div>
+	</section>
+	<!-- About section ends from here -->
+
+
+	<!-- Music section starts from here -->
+	<section id="music">
+		<h1>
+           ₊˚𓂃˖ Most Loved Tracks ₊˚𓂃˖
+        </h1>
+		<p>
+            Discover the songs that have captured the hearts of listeners around the world!
+        </p>
+
+		<div class="course-box">
+
+    <!-- Seasons -->
+    <div class="courses" onclick="openSong(
+        'Seasons',
+        '2020',
+        'img/summers flow 0.02.jpg',
+        'https://open.spotify.com/search/seasons%20wave%20to%20earth',
+        'https://www.youtube.com/results?search_query=wave+to+earth+seasons'
+    )">
+        <img src="img/summers flow 0.02.jpg" alt="">
+        <div class="details">
+            <span>Top #1</span>
+            <h6>Seasons (2020)</h6>
+
+            <div class="star">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-heart"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Love -->
+    <div class="courses" onclick="openSong(
+        'Love.',
+        '2023',
+        'img/flaws and all.jpg',
+        'https://open.spotify.com/search/love%20wave%20to%20earth',
+        'https://www.youtube.com/results?search_query=wave+to+earth+love'
+    )">
+        <img src="img/flaws and all.jpg" alt="">
+        <div class="details">
+            <span>Top #2</span>
+            <h6>Love. (2023)</h6>
+
+            <div class="star">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-heart"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bad -->
+    <div class="courses" onclick="openSong(
+        'Bad',
+        '2023',
+        'img/flaws and all.jpg',
+        'https://open.spotify.com/search/bad%20wave%20to%20earth',
+        'https://www.youtube.com/results?search_query=wave+to+earth+bad'
+    )">
+        <img src="img/flaws and all.jpg" alt="">
+        <div class="details">
+            <span>Top #3</span>
+            <h6>Bad (2023)</h6>
+
+            <div class="star">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-heart"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Homesick -->
+    <div class="courses" onclick="openSong(
+        'Homesick',
+        '2023',
+        'img/flaws and all.jpg',
+        'https://open.spotify.com/search/homesick%20wave%20to%20earth',
+        'https://www.youtube.com/results?search_query=wave+to+earth+homesick'
+    )">
+        <img src="img/flaws and all.jpg" alt="">
+        <div class="details">
+            <span>Top #4</span>
+            <h6>Homesick (2023)</h6>
+
+            <div class="star">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-heart"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Light -->
+    <div class="courses" onclick="openSong(
+        'Light',
+        '2020',
+        'img/wave 0.01.jpg',
+        'https://open.spotify.com/search/light%20wave%20to%20earth',
+        'https://www.youtube.com/results?search_query=wave+to+earth+light'
+    )">
+        <img src="img/wave 0.01.jpg" alt="">
+        <div class="details">
+            <span>Top #5</span>
+            <h6>Light (2020)</h6>
+
+            <div class="star">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-heart"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Peach Eyes -->
+    <div class="courses" onclick="openSong(
+        'Peach Eyes',
+        '2023',
+        'img/flaws and all.jpg',
+        'https://open.spotify.com/search/peach%20eyes%20wave%20to%20earth',
+        'https://www.youtube.com/results?search_query=wave+to+earth+peach+eyes'
+    )">
+        <img src="img/flaws and all.jpg" alt="">
+        <div class="details">
+            <span>Top #6</span>
+            <h6>Peach Eyes (2023)</h6>
+
+            <div class="star">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-heart"></i>
+            </div>
+        </div>
+    </div>
+
+</div>
+	</section>
+	<!-- Music section ends from here -->
+
+
+	<!-- Song Popup section starts from here -->
+	 <div id="songModal" class="song-modal">
+
+    <div class="song-content">
+
+        <span class="close-btn" onclick="closeSong()">&times;</span>
+
+        <img id="songImage">
+
+        <h2 id="songTitle"></h2>
+
+        <p id="songYear"></p>
+
+        <div class="song-buttons">
+
+            <a id="spotifyBtn" target="_blank">
+                🎵 Play on Spotify
+            </a>
+
+            <a id="youtubeBtn" target="_blank">
+                ▶ Watch on YouTube
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+	<!-- Song Popup section ends from here -->
+
+
+	<!-- Latest Release section starts from here -->
+	<section id="latest-release">
+
+    <div class="latest-release-content">
+
+        <span>NEW RELEASE</span>
+
+        <h1>heaven and hell</h1>
+
+        <p>
+            Experience Wave to Earth's latest release, featuring their signature
+            dreamy atmosphere and heartfelt storytelling.
+        </p>
+
+        <!-- Album Cover -->
+        <img src="img/heavenandhell.jpg"
+             alt="Wave to Earth - heaven and hell"
+             class="release-cover">
+
+        <div class="buttons">
+
+            <a href="https://open.spotify.com/search/heaven%20and%20hell%20wave%20to%20earth"
+               target="_blank"
+               class="spotify-btn">
+                🎵 Listen on Spotify
+            </a>
+
+            <a href="https://www.youtube.com/results?search_query=wave+to+earth+heaven+and+hell"
+               target="_blank"
+               class="youtube-btn">
+                ▶ Watch on YouTube
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+	<!-- Latest Release section ends from here -->
+
+
+	<!-- Members section starts from here -->
+<section id="members">
+
+    <h1>✦ Meet the Members ✦</h1>
+
+    <p>
+        Meet the talented musicians behind Wave to Earth.
+    </p>
+
+    <div class="expert-box">
+
+        <!-- Daniel -->
+        <div class="profile">
+
+            <img src="img/daniel.jpg" alt="Daniel Kim">
+
+            <h6>Daniel Kim</h6>
+
+            <p>
+                Vocalist • Guitarist • Songwriter
+            </p>
+
+            <div class="pro-links">
+
+                <a href="https://www.instagram.com/niellkim_/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="https://open.spotify.com/artist/5069JTmv5ZDyPeZaCCXiCg" target="_blank">
+                    <i class="fab fa-spotify"></i>
+                </a>
+
+                <a href="https://www.youtube.com/@wavetoearth" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- John -->
+        <div class="profile">
+
+            <img src="img/soonjong.jpg" alt="John Cha">
+
+            <h6>John Cha</h6>
+
+            <p>
+                Bassist
+            </p>
+
+            <div class="pro-links">
+
+                <a href="https://www.instagram.com/johnchamusic/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="https://open.spotify.com/artist/5069JTmv5ZDyPeZaCCXiCg" target="_blank">
+                    <i class="fab fa-spotify"></i>
+                </a>
+
+                <a href="https://www.youtube.com/@wavetoearth" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- Donggyu -->
+        <div class="profile">
+
+            <img src="img/donggyu.jpg" alt="Shin Donggyu">
+
+            <h6>Shin Donggyu (Dong Q)</h6>
+
+            <p>
+                Drummer
+            </p>
+
+            <div class="pro-links">
+
+                <a href="https://www.instagram.com/dongkiii_/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="https://open.spotify.com/artist/5069JTmv5ZDyPeZaCCXiCg" target="_blank">
+                    <i class="fab fa-spotify"></i>
+                </a>
+
+                <a href="https://www.youtube.com/@wavetoearth" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+     <!-- Members section ends from here -->
+
+	 <!-- Gallery section starts from here -->
+<section id="gallery">
+    <h1>⋆˚｡ Gallery ⋆˚｡</h1>
+    <p>
+        Explore a collection of live performances and memorable moments from Wave to Earth's journey.
+    </p>
+
+    <div class="gallery-box">
+
+        <div class="gallery-item">
+            <img src="img/gallery1.jpg" alt="Wave to Earth">
+        </div>
+
+        <div class="gallery-item">
+            <img src="img/gallery2.jpg" alt="Wave to Earth">
+        </div>
+
+        <div class="gallery-item">
+            <img src="img/gallery3.jpg" alt="Wave to Earth">
+        </div>
+
+        <div class="gallery-item">
+            <img src="img/gallery4.jpg" alt="Wave to Earth">
+        </div>
+
+        <div class="gallery-item">
+            <img src="img/gallery5.jpg" alt="Wave to Earth">
+        </div>
+
+        <div class="gallery-item">
+            <img src="img/gallery6.jpg" alt="Wave to Earth">
+        </div>
+
+    </div>
+</section>
+<!-- Gallery section ends from here -->
+
+	<!-- Footer section starts from here -->
+<!-- Footer starts -->
+<footer>
+
+    <!-- Discography -->
+    <div class="footer-col">
+        <h3>Discography</h3>
+
+        <li>
+            <a href="https://open.spotify.com/artist/5069JTmv5ZDyPeZaCCXiCg" target="_blank">
+                heaven and hell (2026)
+            </a>
+        </li>
+
+        <li>
+            <a href="https://open.spotify.com/artist/5069JTmv5ZDyPeZaCCXiCg" target="_blank">
+                play with earth! 0.03 (Extended Version)
+            </a>
+        </li>
+
+        <li>
+            <a href="https://open.spotify.com/artist/5069JTmv5ZDyPeZaCCXiCg" target="_blank">
+                0.1 flaws and all.
+            </a>
+        </li>
+
+        <li>
+            <a href="https://open.spotify.com/artist/5069JTmv5ZDyPeZaCCXiCg" target="_blank">
+                summer flows 0.02
+            </a>
+        </li>
+
+        <li>
+            <a href="https://open.spotify.com/artist/5069JTmv5ZDyPeZaCCXiCg" target="_blank">
+                wave 0.01
+            </a>
+        </li>
+    </div>
+
+
+    <!-- Navigation -->
+    <div class="footer-col">
+        <h3>Navigate</h3>
+
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#music">Most Loved Tracks</a></li>
+        <li><a href="#latest-release">Latest Release</a></li>
+        <li><a href="#members">Meet the Members</a></li>
+    </div>
+
+
+    <!-- Official Pages -->
+    <div class="footer-col">
+        <h3>Official Pages</h3>
+
+        <li>
+            <a href="https://wave-to-earth.com" target="_blank">
+                Official Website
+            </a>
+        </li>
+
+        <li>
+            <a href="https://open.spotify.com/artist/5069JTmv5ZDyPeZaCCXiCg" target="_blank">
+                Spotify
+            </a>
+        </li>
+
+        <li>
+            <a href="https://music.apple.com/ph/artist/wave-to-earth/1477295619" target="_blank">
+                Apple Music
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.youtube.com/@wavetoearth" target="_blank">
+                YouTube
+            </a>
+        </li>
+    </div>
+
+
+    <!-- Follow -->
+    <div class="footer-col">
+
+        <h3>Follow Wave to Earth</h3>
+
+        <p>
+            Stay updated with the band's newest music,
+            tours, and releases.
+        </p>
+
+        <div class="pro-links">
+
+            <a href="https://www.instagram.com/wave_to_earth/" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="https://x.com/wave_to_earth" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+
+            <a href="https://www.youtube.com/@wavetoearth" target="_blank">
+                <i class="fab fa-youtube"></i>
+            </a>
+
+            <a href="https://open.spotify.com/artist/5069JTmv5ZDyPeZaCCXiCg" target="_blank">
+                <i class="fab fa-spotify"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="copyright">
+
+        <p>
+            Made with ♡ by Maria Nicole • A fan website dedicated to Wave to Earth.
+        </p>
+
+    </div>
+
+</footer>
+<!-- Footer ends -->
+     <!-- Footer Section ends here -->
+
+	<script>
+		// Show menu links on burger click
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+
+		// Hide navbar on click function
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+
+	<script>
+
+function openSong(title,year,image,spotify,youtube){
+
+document.getElementById("songTitle").innerHTML=title;
+
+document.getElementById("songYear").innerHTML="Released: "+year;
+
+document.getElementById("songImage").src=image;
+
+document.getElementById("spotifyBtn").href=spotify;
+
+document.getElementById("youtubeBtn").href=youtube;
+
+document.getElementById("songModal").style.display="flex";
+
+}
+
+function closeSong(){
+
+document.getElementById("songModal").style.display="none";
+
+}
+
+</script>
+</body>
+</html>
